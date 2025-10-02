@@ -13,6 +13,9 @@ public class ifCetakKRS26 {
     } else {
         System.out.println("Registrasi ditolak. Silakan lunasi UKT terlebih dahulu");
     }
+
     
+    String pesan = (uktlunas) ? "Pembayaran UKT terverifikasi \n Silahkan Cetak KRS dan Minta Tanda Tangan DPA" : "Registrasi ditolak. Silahkan lunasi UKT terlebih dahulu";
+    System.out.println(pesan);
     } 
 }
